@@ -8,6 +8,7 @@
 _The game. The green circles indicate where the player can drop a stone._
 
 This is a simple python connect 4 I made for an assignment in school.
+The graphical user interface is done with the turtle, because my resources were limited.
 Two players can play this game remotely, as long as they are in the same network.
 
 ---
@@ -15,6 +16,7 @@ Two players can play this game remotely, as long as they are in the same network
 That aside, this game was put together hastily and as such does have flaws in ux design and maybe even functionality.
 Flaws:
  - UI is in german!
+ - The GUI uses the turtle.
  - Input and Output (e.g. for connecting to another player) use the terminal.
  - The netcode is not async-proof: If one client desyncs then the game is effectively ruined.
    - This could be improved asking whether the other client has actually recieved the data.
