@@ -14,7 +14,7 @@ Two players can play this game remotely, as long as they are in the same network
 ---
 
 That aside, this game was put together hastily and as such does have flaws in ux design and maybe even functionality.
-Flaws:
+#### Flaws:
  - UI is in german!
  - The GUI uses the turtle.
  - Input and Output (e.g. for connecting to another player) use the terminal.
@@ -25,6 +25,5 @@ Flaws:
  - Also the programs exits instead of re-looping if it cannot connect.
 
 ---
-
- #### I might improve this program, I might not.
- Alas, nothing is guaranteed.
+I might improve this program, I might not.
+Alas, nothing is guaranteed.
